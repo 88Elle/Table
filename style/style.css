@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container {
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+
+.cub {
+    width: 20px;
+    height: 20px;
+    background: rgb(39, 38, 38);
+    box-shadow: 0 0 3px blue ;
+    transition: 2s ease;
+}
+.cub:hover {
+    transition-duration: 0ms;
+}
